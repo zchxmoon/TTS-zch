@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+
+# 模型权重文件（通常很大，不适合 Git）
+*.pth
+*.ckpt
+*.bin
+
+# 缓存
+.cache/
+*.pickle
+*.npz
+
+# 环境
+.env
+venv/
+.venv/

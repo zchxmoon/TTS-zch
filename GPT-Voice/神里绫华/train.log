@@ -1,0 +1,34 @@
+2024-08-11 00:42:00,309	神里绫华	INFO	{'train': {'log_interval': 100, 'eval_interval': 500, 'seed': 1234, 'epochs': 10, 'learning_rate': 0.0001, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 10, 'fp16_run': True, 'lr_decay': 0.999875, 'segment_size': 20480, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0, 'text_low_lr_rate': 0.4, 'pretrained_s2G': 'GPT_SoVITS/pretrained_models/gsv-v2final-pretrained/s2G2333k.pth', 'pretrained_s2D': 'GPT_SoVITS/pretrained_models/gsv-v2final-pretrained/s2D2333k.pth', 'if_save_latest': True, 'if_save_every_weights': True, 'save_every_epoch': 10, 'gpu_numbers': '0'}, 'data': {'max_wav_value': 32768.0, 'sampling_rate': 32000, 'filter_length': 2048, 'hop_length': 640, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 300, 'cleaned_text': True, 'exp_dir': 'logs/神里绫华'}, 'model': {'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [10, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 512, 'semantic_frame_rate': '25hz', 'freeze_quantizer': True, 'version': 'v2'}, 's2_ckpt_dir': 'logs/神里绫华', 'content_module': 'cnhubert', 'save_weight_dir': 'SoVITS_weights_v2', 'name': '神里绫华', 'version': 'v2', 'pretrain': None, 'resume_step': None}
+2024-08-11 00:42:01,496	神里绫华	INFO	loaded pretrained GPT_SoVITS/pretrained_models/gsv-v2final-pretrained/s2G2333k.pth
+2024-08-11 00:42:01,668	神里绫华	INFO	loaded pretrained GPT_SoVITS/pretrained_models/gsv-v2final-pretrained/s2D2333k.pth
+2024-08-11 00:42:27,736	神里绫华	INFO	Train Epoch: 1 [0%]
+2024-08-11 00:42:27,737	神里绫华	INFO	[2.8062350749969482, 1.7203081846237183, 10.83487319946289, 18.341110229492188, 0.0, 1.759078025817871, 0, 9.99875e-05]
+2024-08-11 00:43:21,174	神里绫华	INFO	====> Epoch: 1
+2024-08-11 00:43:36,367	神里绫华	INFO	Train Epoch: 2 [22%]
+2024-08-11 00:43:36,372	神里绫华	INFO	[2.744072675704956, 1.947810411453247, 9.08676815032959, 16.170597076416016, 0.0, 1.7613093852996826, 100, 9.99750015625e-05]
+2024-08-11 00:44:10,036	神里绫华	INFO	====> Epoch: 2
+2024-08-11 00:44:33,559	神里绫华	INFO	Train Epoch: 3 [44%]
+2024-08-11 00:44:33,560	神里绫华	INFO	[2.614948034286499, 2.1141977310180664, 9.197510719299316, 17.135963439941406, 0.0, 1.4270319938659668, 200, 9.996250468730469e-05]
+2024-08-11 00:44:57,192	神里绫华	INFO	====> Epoch: 3
+2024-08-11 00:45:29,109	神里绫华	INFO	Train Epoch: 4 [66%]
+2024-08-11 00:45:29,110	神里绫华	INFO	[2.7561991214752197, 2.0847883224487305, 8.810851097106934, 17.171655654907227, 0.0, 1.491848111152649, 300, 9.995000937421877e-05]
+2024-08-11 00:45:41,938	神里绫华	INFO	====> Epoch: 4
+2024-08-11 00:46:22,506	神里绫华	INFO	Train Epoch: 5 [88%]
+2024-08-11 00:46:22,507	神里绫华	INFO	[2.975742816925049, 1.9422082901000977, 8.54472541809082, 16.348779678344727, 0.0, 1.1918845176696777, 400, 9.993751562304699e-05]
+2024-08-11 00:46:27,790	神里绫华	INFO	====> Epoch: 5
+2024-08-11 00:47:09,488	神里绫华	INFO	====> Epoch: 6
+2024-08-11 00:47:18,564	神里绫华	INFO	Train Epoch: 7 [10%]
+2024-08-11 00:47:18,567	神里绫华	INFO	[2.8371105194091797, 1.9011104106903076, 6.622613430023193, 16.071277618408203, 0.0, 1.125604510307312, 500, 9.991253280566489e-05]
+2024-08-11 00:47:56,375	神里绫华	INFO	====> Epoch: 7
+2024-08-11 00:48:13,242	神里绫华	INFO	Train Epoch: 8 [32%]
+2024-08-11 00:48:13,242	神里绫华	INFO	[2.626797676086426, 2.1495275497436523, 10.732335090637207, 17.271638870239258, 0.0, 1.4353139400482178, 600, 9.990004373906418e-05]
+2024-08-11 00:48:41,162	神里绫华	INFO	====> Epoch: 8
+2024-08-11 00:49:07,056	神里绫华	INFO	Train Epoch: 9 [54%]
+2024-08-11 00:49:07,057	神里绫华	INFO	[2.5322229862213135, 2.159579038619995, 12.34001350402832, 18.939889907836914, 0.0, 1.412132740020752, 700, 9.98875562335968e-05]
+2024-08-11 00:49:25,125	神里绫华	INFO	====> Epoch: 9
+2024-08-11 00:50:03,210	神里绫华	INFO	Train Epoch: 10 [76%]
+2024-08-11 00:50:03,212	神里绫华	INFO	[2.5232253074645996, 2.43011474609375, 9.795743942260742, 16.949188232421875, 0.0, 1.0167744159698486, 800, 9.987507028906759e-05]
+2024-08-11 00:50:12,379	神里绫华	INFO	Saving model and optimizer state at iteration 10 to logs/神里绫华/logs_s2\G_233333333333.pth
+2024-08-11 00:50:13,052	神里绫华	INFO	Saving model and optimizer state at iteration 10 to logs/神里绫华/logs_s2\D_233333333333.pth
+2024-08-11 00:50:13,742	神里绫华	INFO	saving ckpt 神里绫华_e10:Success.
+2024-08-11 00:50:13,742	神里绫华	INFO	====> Epoch: 10
