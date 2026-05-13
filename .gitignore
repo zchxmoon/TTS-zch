@@ -21,3 +21,7 @@ build/
 .env
 venv/
 .venv/
+
+# 大文件（超过 GitHub 100MB 限制）
+*.zip
+GPT-Voice/Yukino/
