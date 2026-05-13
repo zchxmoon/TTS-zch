@@ -9,7 +9,6 @@ build/
 
 # 模型权重文件（通常很大，不适合 Git）
 *.pth
-*.ckpt
 *.bin
 
 # 缓存
